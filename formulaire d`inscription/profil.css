@@ -1,0 +1,18 @@
+
+body{
+    background-image: url(illustration/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(1, 1, 32);
+    
+    }
+    form{
+        width: 500px;
+        color: rgb(1, 1, 32);
+    }
+    
+    a {
+        color: rgb(1, 1, 32);
+    }
+
+    

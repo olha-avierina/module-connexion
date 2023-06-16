@@ -1,0 +1,190 @@
+body{
+margin: auto;
+font-family: 'Montserrat', sans-serif;
+color: azure;
+font-size: 18px;
+background-color: rgba(7, 7, 7, 0.907);
+filter: alpha(Opacity=20);
+opacity: 0,2;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.header-nav img {
+    margin: 15px;
+    width: 135px;
+    height: 50px;
+    border-radius:5%;   
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+.actuel a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+  }
+.registration a{
+  /* Main style */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #045fd6;
+  color: white;
+  cursor: pointer;
+  /* add style */
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+/* On click */
+.registration:hover {
+  background-color: #fafaff;
+}
+ img{
+    max-width: 20%;
+}
+
+.Presentation {
+    font-size: 2.5em;
+    text-align: center;
+}
+.Presentation .button1 {
+    background-color: #045fd6;
+    border: none;
+    font-size: 110%;
+    border-radius: 5%;
+}
+.button1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.presentation-detail .google{
+    background-color: red;
+    border: none;
+    font-size: 85%;
+    border-radius: 5%;
+    
+}
+.google a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.presentation-detail .apple{
+    background-color: #fff;
+    border: none;
+    font-size: 85%;
+    border-radius: 5%;
+}
+.apple a{
+    color: black;
+    text-decoration: none;      
+}
+
+.presentation-detail .facebook{
+    background-color: #033eb4;
+    border: none;
+    font-size: 85%;
+    border-radius: 5%;
+}
+.facebook a{
+    color: #fff;
+    text-decoration: none;     
+}
+
+.List-of-languages {
+     border: 2px solid  rgba(7, 7, 7, 0.907);
+     height: 250px;
+     margin: 25px;
+     padding: 20px;
+     width: 95%;
+     background-color: #fff;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+.List-of-languages a{
+    background-color: darkgray;
+    float: left;
+    margin: 0 1.5%;
+    height: 240x;
+    width: 20%;
+    border-radius: 5%;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center; /* Расположить элементы вертикально по центру */
+    justify-content: center; /* Расположить элементы горизонтально по центру */
+}
+a img{
+    width: 70%;
+    border-radius: 50%;
+}
+.Advantages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Advantages article{
+    background-color:white;
+    margin: 1.5%;
+    min-height: 500x;
+    width: 30%;
+    border-radius: 5%;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);
+    align-items: center; /* Расположить элементы вертикально по центру */
+    justify-content: center;
+    padding:30px;
+}
+.section1, .section2, .section3{
+    text-align: center;
+}
+.Advantages img{
+    max-width: 100%;
+}
+
+.Learning{
+     border: 2px solid  rgba(7, 7, 7, 0.907);
+     height: 450px;
+     margin: 25px;
+     padding: 20px;
+     width: 95%;
+     background-color: #fff;
+     color:  rgba(0, 0, 0, 0.75);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+.Learning article{
+    display: block;
+    text-align: left;
+    padding: 30px;
+}
+
+.Learning img{
+  max-width: 100%;
+}
+
+ footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .Text img {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    border-radius: 50%;
+ }

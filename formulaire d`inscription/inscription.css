@@ -1,0 +1,12 @@
+
+body{
+background-image: url(illustration/Background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+form{
+    width: 500px;
+}
+button{
+    background-color: rgb(29, 74, 74);
+}
